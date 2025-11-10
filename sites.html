@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  <title>Full Site List &ndash; occupyinter.net</title>
+  <link href='stylesheets/frontpage.css' media='screen' rel='stylesheet' type='text/css' />
+  <script src='days-counter.js' type='text/javascript'></script>
+  <style>
+    .archive-notice {
+      background: #fff3cd;
+      border: 2px solid #ffc107;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    .sites-approximation {
+      font-family: monospace;
+      margin: 20px 0;
+      padding: 10px;
+      background: #f5f5f5;
+      border-left: 4px solid #f0f;
+    }
+    .sites-approximation ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id='container'>
+    <div style='background: #fff3cd; border: 2px solid #ffc107; padding: 12px 20px; margin: 0 0 20px 0; text-align: center; font-size: 14px;'>
+      This site is an archive of a <a href='https://fffff.at' style='font-weight: bold; color: #000;'>F.A.T. Lab</a> project from October 2011. <a href='https://fffff.at/occupy-the-internet/' style='font-weight: bold; color: #000;'>Read more</a>
+    </div>
+    <div id='header'>
+      <h1>
+        <a href='index.html'>Occupy The Internet</a>
+      </h1>
+      <div id='navigation'>
+        <ul>
+          <li><a href="index.html#embeddable-protest">Embeddable Protest</a></li>
+          <li><a href="index.html#browser-addons">Browser Addons</a></li>
+          <li><a href="index.html#site-hijack">Site Hijack</a></li>
+          <li><a href="stats.html">Stats</a></li>
+          <li><a href="sites.html">Full Site List</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id='body'>
+      <h2>Full Site List</h2>
+
+      <div class="archive-notice">
+        <strong>Archive Notice:</strong> This data is from January 27, 2012, archived via the Wayback Machine.
+      </div>
+
+      <div class="sites-approximation">
+        <p>Total sites that embedded the Occupy Internet widget: <strong>1,651</strong></p>
+        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
+          Sites are listed in chronological order (oldest first). Many of these sites are no longer active.
+        </p>
+      </div>
+
+      <ul id="sites-list" style="font-family: monospace; font-size: 0.9em; line-height: 1.6; column-count: 3; column-gap: 20px; list-style: disc inside;">
+      </ul>
+
+      <script>
+        // Load and display sites list
+        fetch('sites-list.txt')
+          .then(r => r.text())
+          .then(text => {
+            const sites = text.trim().split('\n');
+            const list = document.getElementById('sites-list');
+            sites.forEach(site => {
+              const li = document.createElement('li');
+              li.textContent = site;
+              list.appendChild(li);
+            });
+          })
+          .catch(e => {
+            document.getElementById('sites-list').innerHTML = '<li>Error loading sites list</li>';
+          });
+      </script>
+    </div>
+    <div id='footer'>
+    </div>
+  </div>
+  <script id='embed_demo' src='embed.js'></script>
+</body>

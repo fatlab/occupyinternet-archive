@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  <title>Stats &ndash; occupyinter.net</title>
+  <link href='stylesheets/frontpage.css' media='screen' rel='stylesheet' type='text/css' />
+  <script src='days-counter.js' type='text/javascript'></script>
+  <style>
+    .archive-notice {
+      background: #fff3cd;
+      border: 2px solid #ffc107;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    .stats-approximation {
+      font-family: monospace;
+      margin: 20px 0;
+      padding: 10px;
+      background: #f5f5f5;
+      border-left: 4px solid #f0f;
+    }
+  </style>
+</head>
+<body>
+  <div id='container'>
+    <div style='background: #fff3cd; border: 2px solid #ffc107; padding: 12px 20px; margin: 0 0 20px 0; text-align: center; font-size: 14px;'>
+      This site is an archive of a <a href='https://fffff.at' style='font-weight: bold; color: #000;'>F.A.T. Lab</a> project from October 2011. <a href='https://fffff.at/occupy-the-internet/' style='font-weight: bold; color: #000;'>Read more</a>
+    </div>
+    <div id='header'>
+      <h1>
+        <a href='index.html'>Occupy The Internet</a>
+      </h1>
+      <div id='navigation'>
+        <ul>
+          <li><a href="index.html#embeddable-protest">Embeddable Protest</a></li>
+          <li><a href="index.html#browser-addons">Browser Addons</a></li>
+          <li><a href="index.html#site-hijack">Site Hijack</a></li>
+          <li><a href="stats.html">Stats</a></li>
+          <li><a href="sites.html">Full Site List</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id='body'>
+      <h2>Site Stats</h2>
+
+      <div class="archive-notice">
+        <strong>Archive Notice:</strong> This data is from November 16, 2013, archived via the Wayback Machine.
+      </div>
+
+      <div class="stats-approximation">
+        <h3>Top Sites by Unique Visitors</h3>
+        <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">
+          Showing top 50 sites (out of 6,936 total sites with recorded stats)
+        </p>
+      </div>
+
+      <table style="width: 100%; border-collapse: collapse; font-family: monospace; font-size: 0.9em;">
+        <thead>
+          <tr style="background: #f0f; color: #fff;">
+            <th style="padding: 8px; text-align: left;">#</th>
+            <th style="padding: 8px; text-align: left;">Site</th>
+            <th style="padding: 8px; text-align: right;">Visits</th>
+            <th style="padding: 8px; text-align: right;">Uniques</th>
+          </tr>
+        </thead>
+        <tbody id="stats-table">
+        </tbody>
+      </table>
+
+      <script>
+        const topStats = [
+          ['boards.4chan.org', '2,286,929', '401,414'],
+          ['tepco.researchlab.jp', '249,595', '188,717'],
+          ['criticapura.com', '191,171', '143,867'],
+          ['fffff.at', '199,982', '138,750'],
+          ['deaddrops.com', '152,971', '107,555'],
+          ['mmmmail.com', '43,458', '24,578'],
+          ['molleindustria.org', '26,653', '21,737'],
+          ['wtfweb.com.ar', '29,990', '21,411'],
+          ['knowyourmeme.com', '20,900', '17,471'],
+          ['post-tits.org', '56,680', '13,690'],
+          ['c6.org', '20,518', '13,610'],
+          ['freakboard.de', '24,061', '12,212'],
+          ['graffitiresearchlab.com', '15,860', '12,071'],
+          ['occupyinter.net', '13,529', '10,509'],
+          ['buzzfeed.com', '13,796', '10,382'],
+          ['tumblr.knowyourmeme.com', '14,627', '10,255'],
+          ['spamranking.de', '11,875', '9,767'],
+          ['sys.4chan.org', '19,474', '8,980'],
+          ['manetas.com', '13,826', '8,004'],
+          ['evan-roth.com', '10,809', '7,999'],
+          ['artzilla.org', '12,849', '7,916'],
+          ['fffff.at/occupy/www.pko.pl', '8,741', '6,996'],
+          ['scottkellum.com', '7,472', '6,712'],
+          ['fffff.at/occupy/goldmansachs.com', '7,517', '6,534'],
+          ['0100101110101101.org', '8,723', '6,489'],
+          ['radiofreepenzance.blogspot.com', '7,789', '6,261'],
+          ['myownspace.fr', '12,498', '6,117'],
+          ['jamiedubs.com', '6,813', '5,761'],
+          ['musicologo.blogspot.com', '6,781', '5,142'],
+          ['notational.tumblr.com', '6,908', '5,005'],
+          ['theinfluencers.org', '5,867', '4,910'],
+          ['weareallmodels.com', '6,203', '4,837'],
+          ['enlargemypenis.org', '5,639', '4,778'],
+          ['computersteward.com', '6,032', '4,642'],
+          ['spicybiscotti.com', '5,418', '4,601'],
+          ['fffff.at/occupy/www.barclays.co.uk', '5,131', '4,473'],
+          ['xmarkjenkinsx.com', '5,275', '4,427'],
+          ['fffff.at/occupy/gorillamask.net', '4,924', '4,404'],
+          ['pzwart3.wdka.hro.nl', '5,301', '4,350'],
+          ['26.jeremypettis.com', '4,824', '4,267'],
+          ['rainbowgradients.com', '5,005', '4,110'],
+          ['systaime.com', '4,590', '3,918'],
+          ['cdriko.free.fr', '4,596', '3,859'],
+          ['rasmusfleischer.se', '4,324', '3,850'],
+          ['jamiew.tumblr.com', '4,379', '3,796'],
+          ['fffff.at/occupy/reddit.com', '4,139', '3,760'],
+          ['northroad.net', '4,379', '3,678'],
+          ['kuchan.org', '4,370', '3,561'],
+          ['tipode.com', '4,015', '3,559'],
+          ['snooweatinganima.de', '4,036', '3,527']
+        ];
+
+        const tbody = document.getElementById('stats-table');
+        topStats.forEach((row, i) => {
+          const tr = document.createElement('tr');
+          tr.style.background = i % 2 === 0 ? '#f5f5f5' : '#fff';
+          tr.innerHTML = `
+            <td style="padding: 6px;">${i + 1}</td>
+            <td style="padding: 6px;">${row[0]}</td>
+            <td style="padding: 6px; text-align: right;">${row[1]}</td>
+            <td style="padding: 6px; text-align: right;">${row[2]}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      </script>
+    </div>
+    <div id='footer'>
+    </div>
+  </div>
+  <script id='embed_demo' src='embed.js'></script>
+</body>
