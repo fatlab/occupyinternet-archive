@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stats &ndash; occupyinter.net</title>
   <link href='stylesheets/frontpage.css' media='screen' rel='stylesheet' type='text/css' />
   <style>
@@ -16,6 +17,17 @@
       padding: 10px;
       background: #f5f5f5;
       border-left: 4px solid #f0f;
+    }
+    @media (max-width: 768px) {
+      table {
+        font-size: 0.75em !important;
+      }
+      th, td {
+        padding: 4px !important;
+      }
+      th:first-child, td:first-child {
+        display: none;
+      }
     }
   </style>
 </head>
