@@ -1,6 +1,6 @@
 # occupyinter.net Archive
 
-This is an archived snapshot of the occupyinter.net website, preserved for historical purposes.
+Complete offline-capable archive of the occupyinter.net website, preserved for historical purposes.
 
 ## About
 
@@ -11,13 +11,28 @@ This is an archived snapshot of the occupyinter.net website, preserved for histo
 - Original URL: https://occupyinter.net
 - Archived: November 2025
 - GitHub Pages deployment ready
+- Fully offline-capable (all assets localized)
 
 ## Contents
 
-- `index.html` - Main landing page
-- `embed.js` - The embeddable protest widget script
+- `index.html` - Main landing page (tracking scripts disabled)
+- `embed.js` - The embeddable protest widget script (localized asset paths)
 - `stylesheets/` - CSS files
-- `images/` - Animated GIF protesters
+- `images/` - Site images (3 files)
+- `avatars/` - Animated GIF protesters (70 files, 26MB)
+- `exhibition/` - Exhibition artwork (8 files, 2.8MB)
+- `crowd.mp3` - Crowd audio (287KB)
+- `extensions/` - Browser extensions for Chrome, Firefox, and Safari
+
+## Archive Details
+
+This is a complete snapshot with all remote resources downloaded locally:
+- 70 protest avatar GIFs
+- 8 exhibition artwork GIFs
+- Audio file for protest sounds
+- Browser extensions (Chrome, Firefox, Safari)
+- All tracking and social widgets disabled for offline use
+- Total size: ~30MB
 
 ## Credits
 

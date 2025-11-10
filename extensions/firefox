@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+
+                        new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-PTCCTRG');
+        </script>
+        <meta charset="utf-8">
+        <title>AEPC Web Build 2019 Blog Category</title>
+        <meta name="description" content="">
+        <meta name="title" content="">
+        <meta name="author" content="Patrick Bennett">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <meta name="HandheldFriendly" content="true">
+        <link rel="icon" type="image/png" href="https://aepcgroup.com/themes/aepc/assets/images/mobile_logo.png">
+        <link href="https://aepcgroup.com/themes/aepc/assets/compiled/modals.css" rel="stylesheet">
+        <link href="https://aepcgroup.com/themes/aepc/assets/compiled/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://aepcgroup.com/themes/aepc/assets/vendor/font-awesome/css/all.css">
+
+            </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTCCTRG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!--navigation-->
+        <nav id="layout-navigation">
+            <div class="mobile-logo">
+    <a href="https://aepcgroup.com" class="mobile-logo">
+        <img class="mobile-logo" src="https://aepcgroup.com/themes/aepc/assets/images/base/mobile_aepc_logo.png">
+    </a>
+</div>
+
+<div class="desktop-logo">
+<a href="https://aepcgroup.com" class="desktop-logo">
+        <img class="desktop-logo" src="https://aepcgroup.com/themes/aepc/assets/images/base/desktop_nav_logo.png">
+    </a>
+</div>
+
+
+<div class="menu-toggle">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="https://aepcgroup.com/about">
+                <li>ABOUT US</li>
+            </a>
+            <a href="https://aepcgroup.com/services">
+                <li>SERVICES</li>
+            </a>
+            <a href="https://aepcgroup.com/resources">
+                <li>RESOURCES</li>
+            </a>
+            <a href="https://aepcgroup.com/careers">
+                <li>CAREERS</li>
+            </a>
+            <a href="https://aepcgroup.com/community-service">
+                <li>COMMUNITY<br>OUTREACH</li>
+            </a>
+            <a href="https://aepcgroup.com/1">
+                <li>BLOG</li>
+            </a>
+            <a href="https://aepcgroup.com/contact">
+                <li>CONTACT US</li>
+            </a>
+            <img class="nav-logo" src="https://aepcgroup.com/themes/aepc/assets/images/mobile_logo.png">
+        </ul>
+    </div>
+</div>
+<!-- <div class="search-button">
+    <a href="#" class="search-icon">
+        <img src="https://aepcgroup.com/themes/aepc/assets/images/base/search_icon.png">
+    </a>
+</div> -->
+
+<div class="search-button">
+    <form action="https://aepcgroup.com/search" method="get">
+        <input placeholder="Search Term?" type="search" value="" id="search" name="q" autocomplete="on" onfocus="this.value=''">
+        <div class="search"></div>
+    </form>
+</div>
+
+<div class="menu-desktop">
+    <ul id="menu-desktop-links">
+        <li>
+            <a href="https://aepcgroup.com/about">
+                ABOUT US
+            </a>
+        </li>
+        <li>
+            <a href="https://aepcgroup.com/services">
+                SERVICES
+            </a>
+        </li>
+        <li>
+            <a href="https://aepcgroup.com/resources">
+                RESOURCES
+            </a>
+        </li>
+        <li>
+            <a href="https://aepcgroup.com/careers">
+                CAREERS
+            </a>
+        </li>
+        <li>
+            <a href="https://aepcgroup.com/community-service">
+                COMMUNITY OUTREACH
+            </a>
+        </li>
+        <li>
+            <a href="https://aepcgroup.com/1">
+                BLOG
+            </a>
+        </li>
+        <li>
+            <a href="https://aepcgroup.com/contact">
+                CONTACT US
+            </a>
+        </li>
+    </ul>
+</div>        </nav>
+
+        <!-- Content -->
+        <section id="layout-content" class="layout-content-blog">
+            <header id="layout-header" class="header-blog">
+    <img class="desktop-hero desktop-display" src="https://aepcgroup.com/themes/aepc/assets/images/blog/desktop/blog_desktop_header_bg.jpg">
+    <div class="header-content">
+        <img class="mobile-display" src="https://aepcgroup.com/themes/aepc/assets/images/case-studies/aepc_logo_small_mobile.png">
+        <img class="desktop-display" src="https://aepcgroup.com/themes/aepc/assets/images/desktop_logo.png">
+        <h1>AEPC Group Blog</h1>
+    </div>
+    <div class="social-bubbles">
+        <!-- <a href="http://instagram.com/aepcgroup">
+            <img class="social-icon" src="https://aepcgroup.com/themes/aepc/assets/images/social/social_bubble_insta.png">
+        </a> -->
+        <a href="http://facebook.com/aepcgroup">
+            <img class="social-icon" src="https://aepcgroup.com/themes/aepc/assets/images/social/social_bubble_fb.png">
+        </a>
+        <a href="https://www.linkedin.com/company/aepc-group-llc">
+            <img class="social-icon" src="https://aepcgroup.com/themes/aepc/assets/images/social/social_bubble_in.png">
+        </a>
+    </div>
+</header>
+<section class="blog-content">
+    <div class="column-1">
+        
+<ul class="post-list">
+            <li class="blog-teaser-li">
+                                    <img
+                class='blog-featured-img desktop-display'
+                data-src="Blog Images_Covid.jpg"
+                src="https://aepcgroup.com/storage/app/uploads/public/5e8/772/2a4/5e87722a45479036691612.jpg"
+                alt="">
+
+                <div class="featured-images text-center mobile-display">
+
+                            <img
+                                class='blog-featured-img'
+                                data-src="Blog Images_Covid.jpg"
+                                src="https://aepcgroup.com/storage/app/uploads/public/5e8/772/2a4/5e87722a45479036691612.jpg"
+                                alt="">
+
+                </div>
+                            
+            <div class="post-teaser">
+                                <div class="line mobile-display"></div>
+                <h3>
+                    <a class="blog-post-link" href="https://aepcgroup.com/blog/post/aepc-standing-ready-during-covid-19">
+                                                    <span class="desktop-display">03.30.20</span>
+                                                <span class="mobile-display">03.30.20</span> AEPC is standing ready during COVID-19!
+                    </a>
+                </h3>
+
+                <p class="excerpt">We at AEPC understand the business difficulties...</p>
+                                    <a class="readmore desktop-display" href='https://aepcgroup.com/blog/post/aepc-standing-ready-during-covid-19'>
+                        Read More
+                    </a>
+                                <a class="button-partial mobile-display" href='https://aepcgroup.com/blog/post/aepc-standing-ready-during-covid-19'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+            </div>
+        </li>
+            <li class="blog-teaser-li">
+                                    <img
+                class='blog-featured-img desktop-display'
+                data-src="blog1_header.jpg"
+                src="https://aepcgroup.com/storage/app/uploads/public/5cc/cab/d00/5cccabd00b9a3395483661.jpg"
+                alt="">
+
+                <div class="featured-images text-center mobile-display">
+
+                            <img
+                                class='blog-featured-img'
+                                data-src="blog1_header.jpg"
+                                src="https://aepcgroup.com/storage/app/uploads/public/5cc/cab/d00/5cccabd00b9a3395483661.jpg"
+                                alt="">
+
+                </div>
+                            
+            <div class="post-teaser">
+                                <div class="line mobile-display"></div>
+                <h3>
+                    <a class="blog-post-link" href="https://aepcgroup.com/blog/post/aepc-group-new-digital-presence">
+                                                    <span class="desktop-display">05.03.19</span>
+                                                <span class="mobile-display">05.03.19</span> AEPC Group Launches New Digital Presence
+                    </a>
+                </h3>
+
+                <p class="excerpt">AEPC Group is proud to announce the launch of a new suite of digital presence.</p>
+                                    <a class="readmore desktop-display" href='https://aepcgroup.com/blog/post/aepc-group-new-digital-presence'>
+                        Read More
+                    </a>
+                                <a class="button-partial mobile-display" href='https://aepcgroup.com/blog/post/aepc-group-new-digital-presence'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+            </div>
+        </li>
+    </ul>
+
+    </div>
+    <div class="column-2 desktop-display">
+        <h2>Read Latest Community Posts</h2>
+        <div class="community-feed">
+            
+<ul class="post-list">
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="Spark lab mobile.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/43f/a5e/5ca43fa5e871b879121194.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/spark-lab-event">11.10.25 Spark Labs</a></h3>
+
+                <p class="excerpt"><p>The design-thinking exercises that SFPUC volunteers lead...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/spark-lab-event'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/spark-lab-event'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="spark discovery mobile.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/441/446/5ca4414462f59483564046.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/sfpucs-benefits">11.10.25 SFPUC’s Benefits</a></h3>
+
+                <p class="excerpt"><p>We were extremely proud of the efforts provided by our key partners...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/sfpucs-benefits'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/sfpucs-benefits'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="Spark Labs image.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/43c/a19/5ca43ca19eca0016266198.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/spark-discovery">11.10.25 Spark Discovery Day</a></h3>
+
+                <p class="excerpt"><p>Our team was thrilled to support Spark through...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/spark-discovery'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/spark-discovery'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="costal cleanup.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/43e/ba7/5ca43eba750fb740581091.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/coastal-cleanup">11.10.25 Coastal Cleanup Day</a></h3>
+
+                <p class="excerpt"><p>The Coastal Cleanup Day is an international event that has helped remove millions...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/coastal-cleanup'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/coastal-cleanup'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="Foodbank.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5cc/681/dc3/5cc681dc3a1d1205083549.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/sanfran-food-bank">11.10.25 San Francisco/Marin Food Bank</a></h3>
+
+                <p class="excerpt"><p>AEPC is proud to support the Food Bank's mission...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/sanfran-food-bank'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/sanfran-food-bank'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="Rebuilding together.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/443/db4/5ca443db4817d677678277.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/aepc-rebuilds">11.10.25 National Rebuilding Together Day</a></h3>
+
+                <p class="excerpt"><p>Rebuilding Together is a nationwide non-profit...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/aepc-rebuilds'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/aepc-rebuilds'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="CA parks.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/444/cd1/5ca444cd1d83e546396516.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/aepc-and-environmental-justice">11.10.25 AEPC &amp; Environmental Justice</a></h3>
+
+                <p class="excerpt"><p>Activities include planting native plants...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/aepc-and-environmental-justice'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/aepc-and-environmental-justice'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="Solar training mobile.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5ca/445/a15/5ca445a156efe363725705.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/john-oconnell-solar-training">11.10.25 John O&#039;Connell Solar Training</a></h3>
+
+                <p class="excerpt"><p>AEPC volunteers led approximately 50...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/john-oconnell-solar-training'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/john-oconnell-solar-training'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+            <li>
+                <div class="community featured-images text-center">
+                <img
+                    class="community-featured-img"
+                    data-src="SSIP City-Works Desktop.jpg"
+                    src="https://aepcgroup.com/storage/app/uploads/public/5cc/681/44b/5cc68144b4085048716998.jpg"
+                    alt="" />
+                </div>
+
+<!--<div class="line"></div> -->
+            <div class="post-teaser">
+<!--                 <p class="info">
+                    Posted
+                                                            on Nov 10, 2025
+                </p> -->
+                                    <div class="line desktop-display"></div>
+                                <div class="line mobile-display"></div>
+                <h3><a class="blog-post-link" href="https://aepcgroup.com/community-posts/community/young-community-developers-inc">11.10.25 Young Community Developers, Inc</a></h3>
+
+                <p class="excerpt"><p>AEPC participated in the SSIP City-Works Internship...</p></p>
+
+                <a class="button-partial mobile-display" href='https://aepcgroup.com/community-posts/community/young-community-developers-inc'>
+                    <button class="yellow-button blog-read-more">
+                        Read More
+                    </button>
+                </a>
+
+                                    <a class="readmore button-partial desktop-display" href='https://aepcgroup.com/community-posts/community/young-community-developers-inc'>
+                        <button class="yellow-button blog-read-more">
+                            Read More
+                        </button>
+                    </a>
+                            </div>
+        </li>
+    </ul>
+
+        </div>
+    </div>
+</section>        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer" class="mobile-display">
+            <div class="footer-left">
+<div class="footer-content">
+<p class="footer-resources">Resources</p>
+<ul>
+<li><a class="footer-link" href="https://aepcgroup.com/1">Blog</a></li>
+<li><a class="footer-link" href="https://aepcgroup.com/contact">Contact Us</a></li>
+<li><a class="footer-link" href="https://aepcgroup.com/careers">Careers</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-center">
+<div class="footer-social"><a href="http://instagram.com/aepcgroup"> <img src="https://aepcgroup.com/themes/aepc/assets/images/social/insta_icon.svg" /> </a> <a href="http://facebook.com/aepcgroup"> <img src="https://aepcgroup.com/themes/aepc/assets/images/social/fb_icon.svg" /> </a> <a href="https://www.linkedin.com/company/aepc-group-llc"> <img src="https://aepcgroup.com/themes/aepc/assets/images/social/in_icon.svg" /> </a></div>
+<div class="social-text">Follow us to stay updated</div>
+<div class="button"><a href="https://aepcgroup.com/contact"> <button class="contact-button"> Contact Us </button> </a></div>
+</div>
+<div class="footer-right">
+<div class="address-content">
+<p class="address"><strong>Mailing Address</strong> <br /> AEPC Group, LLC&nbsp;15865 Soledad Canyon Road, #210, Santa Clarita, CA 91351</p>
+<p class="phone-nums"><strong>Phone:</strong> 925.277.3050 <br /><strong>Fax:</strong> 925.824.0102</p>
+</div>
+</div>
+<div class="sub-footer">
+<p>&amp;copy AEPC Group, LLC.</p>
+</div>        </footer>
+        <footer id="layout-footer" class="desktop-display">
+            <div class="footer-1"><img src="https://aepcgroup.com/themes/aepc/assets/images/footer/desktop/logo.png" /> <a class="button-partial" href='https://aepcgroup.com/contact'>
+    <button class="yellow-button" >
+        CONTACT US
+    </button>
+</a></div>
+<div class="footer-2">
+<p class="footer-heading">Explore</p>
+<a href="https://aepcgroup.com">Home</a> <a href="https://aepcgroup.com/case-studies">Case Studies</a> <a href="https://aepcgroup.com/services">Services</a> <a href="https://aepcgroup.com/1">Blog</a> <a href="https://aepcgroup.com/careers">Careers</a> <a href="">Community Outreach</a></div>
+<div class="footer-3">
+<p><span class="footer-heading">AEPC Group Headquarters</span><br />15865 Soledad Canyon&nbsp;Rd., #210<br /> Santa Clarita, CA&nbsp;91351</p>
+<p><span class="footer-heading">Contact</span><br /> <a href="tel:9492241590">Phone: (949) 224-1590<br /> Fax: (949) 379-2650<br /> </a><a href="mailto:info@aepcgroup.com">info@aepcgroup.com</a></p>
+</div>
+<div class="footer-4">
+<p class="footer-heading">Follow Us</p>
+<a href="https://www.linkedin.com/company/aepc-group-llc"> <img src="https://aepcgroup.com/themes/aepc/assets/images/social/in_icon.svg" /> </a> <a href="http://instagram.com/aepcgroup"> <img src="https://aepcgroup.com/themes/aepc/assets/images/social/insta_icon.svg" /> </a> <a href="http://facebook.com/aepcgroup"> <img src="https://aepcgroup.com/themes/aepc/assets/images/social/fb_icon.svg" /> </a></div>
+<div class="footer-5"><a class="button-partial" href="#"> <button id="topBtn" class="yellow-button"> BACK TO TOP </button> </a> <img src="https://aepcgroup.com/themes/aepc/assets/images/desktop_logo.png" /></div>        </footer>
+
+        <!-- Scripts -->
+        <script src="https://aepcgroup.com/themes/aepc/assets/vendor/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPJXpahYSlQjfHRR86_z5JYVmXw9sJhQY&libraries=places&callback=initialize">
+        </script>
+        <script src="https://aepcgroup.com/themes/aepc/assets/javascript/app.js"></script>
+        <script src="/modules/system/assets/js/framework.combined-min.js"></script>
+<link rel="stylesheet" property="stylesheet" href="/modules/system/assets/css/framework.extras-min.css">
+        
+    </body>
+</html>
