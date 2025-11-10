@@ -2,7 +2,6 @@
 <head>
   <title>Full Site List &ndash; occupyinter.net</title>
   <link href='stylesheets/frontpage.css' media='screen' rel='stylesheet' type='text/css' />
-  <script src='days-counter.js' type='text/javascript'></script>
   <style>
     .archive-notice {
       background: #fff3cd;
@@ -62,20 +61,11 @@
       </ul>
 
       <script>
-        // Load and display sites list
         fetch('sites-list.txt')
           .then(r => r.text())
           .then(text => {
-            const sites = text.trim().split('\n');
-            const list = document.getElementById('sites-list');
-            sites.forEach(site => {
-              const li = document.createElement('li');
-              li.textContent = site;
-              list.appendChild(li);
-            });
-          })
-          .catch(e => {
-            document.getElementById('sites-list').innerHTML = '<li>Error loading sites list</li>';
+            document.getElementById('sites-list').innerHTML =
+              text.trim().split('\n').map(s => '<li>' + s + '</li>').join('');
           });
       </script>
     </div>
